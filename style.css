@@ -1,0 +1,213 @@
+ body {
+    position: relative; 
+    text-align: justify;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+li {
+  float: right;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 17px 19px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+}
+  #img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 5px solid black;
+ 
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  font-size: 16px;
+
+
+ 
+}
+ 
+ 
+
+
+
+
+.main {
+
+  font-size: 20px;
+  /* Same as the width of the sidenav */
+}
+button{
+  color: white;
+  background-color: #7c0a02;
+  
+
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 44px;
+  margin-top: 40px;
+}
+#right{
+  color:#7c0a02;
+  text-align: right;
+  font-weight: bolder;
+}
+
+
+#navimg{
+  width: 30px;
+  height: 30px;
+  padding-right: 3px;
+ margin-top: 0px;
+
+}
+
+
+  #section1 {padding-top:100px;height:800px;color: white;
+  background-position: center;
+  background-size: cover;
+  background-image: url("homebg.jpg");
+  min-height: 90%;
+}
+  #section0 {padding-top:100px;height:1100px;color: #000000; background-color: white;}
+  #section2 {padding-top:100px;height:1100px;color: #000000; background-color: white;}
+  #section3 {padding-top:100px;height:450px;color: white; background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-image: url("skillbg.png");
+    }
+  #section41 {padding-top:200px;height:1100px;color: #000000; background-color: white;}
+  #section42 {padding-top:100px;height:1100px;color: #000000; background-color: white;}
+  #section4 {padding-top:100px;height:1100px;color: white; background-color: white;
+    text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url("contactbg.jpg");
+  min-height: 90%;  }
+
+
+.home{
+  font-size: 50px;
+  font-weight: 900;
+  font-family: serif;
+  margin-top: 60px;
+  margin-left: 40px;
+  
+}
+
+.about{
+  margin-left: 400px;
+  text-align: justify-all;
+
+}
+h4{
+  margin-left: 42px;
+  font-size: 30px;
+}  
+.
+.secton42 img{
+width: 240px;
+  height: 200px;
+  margin-left: 140px;
+  opacity: 100%;
+}
+
+
+
+#section0 img{
+  float: left;
+  width: 250px;
+  height: 350px;
+  border: 3px solid black;
+  margin-left: 100px;
+}
+
+
+p{
+  margin left: 700px;
+}
+
+
+h2{
+ 
+  text-decoration-style: double;
+  text-decoration-color: #ff7f50;
+  text-align: center;
+  font-weight: bolder;
+  font-family: monospace;
+}
+.container {
+  width: 600px;
+  height: 20px;
+  background-color: grey;
+  margin-left: 30px;
+
+  
+}
+
+.skills {
+  text-align: right;
+  color: white;
+  height: 20px;
+}
+
+.html {width: 95%; background-color: #7c0a02;}
+.css {width: 80%; background-color: #7c0a02;}
+.js {width: 65%; background-color: #7c0a02;}
+.php {width: 60%; background-color: #7c0a02;}
+.photoshop{width: 75%; background-color: #7c0a02;}
+.wordpress{width: 65%; background-color: #7c0a02;}
+
+.table{
+border: 1px solid black;
+height: 800px;
+}
+
+.social{
+  width: 500px;
+  height: 300px;
+}
+.column {
+  float: left;
+ padding: 10px;
+ margin-left: 300px;
+  
+/* Should be removed. Only for demonstration */
+}
+.column1 {
+  float: right;
+ margin-right: 430px;
+  padding: 10px;
+background-color: #7c0a02;
+ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
